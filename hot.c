@@ -6,8 +6,13 @@
 #define ROUND 3
 
 int main(){
+    char name[15];
     int i=0,head=0,tail=0;
     srand((unsigned int)time(NULL));
+
+    printf("Who are you?\n> ");
+    scanf("%s",name);
+    printf("Hello, %s!\n",name);
 
     printf("Tossing a coin...\n");
 
